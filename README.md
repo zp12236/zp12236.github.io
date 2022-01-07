@@ -5,7 +5,7 @@
       <p><b>7dα汧fёí蕏买车票直接减，现在领了就能用￥KF742YW5fcf￥ https://s.ereuiib.com/E1.yzmhBS</b></p>
     </td>
    <td width="25%">
-      <img src="/code.png" width="100%">      % 插入证件照代码
+      <img src="/code.jpg" width="100%">      % 插入证件照代码
     </td>
   </tr>
 </table>
