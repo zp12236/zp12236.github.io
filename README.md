@@ -1,4 +1,9 @@
-<table border="0">
+<html>
+	<head>
+		<title>lylyly</title>
+	</head>
+	<body>
+		<table border="0">
   <tr>
     <td width="75%">
       <h1>复制口令打开淘宝</h1>
@@ -15,3 +20,6 @@
 	</td>
   </tr>
 </table>
+
+	</body>
+</html>
