@@ -3,71 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI星图 | 关于AI的静态博客</title>
-  <meta name="description" content="聚焦 AI 趋势、工具评测、提示词工程与实战教程的静态网页博客。" />
+  <title>ORION Journal | 现代高端博客</title>
+  <meta name="description" content="为创始人、管理者与专业创作者打造的高端博客首页设计。" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <div class="bg-glow" aria-hidden="true"></div>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#">AI星图</a>
-      <nav>
-        <a href="#posts">最新文章</a>
-        <a href="#topics">专题</a>
-        <a href="#about">关于</a>
+      <a class="brand" href="#">ORION JOURNAL</a>
+      <nav class="main-nav">
+        <a href="#featured">精选文章</a>
+        <a href="#columns">专栏</a>
+        <a href="#about">关于作者</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero container">
-      <p class="badge">2026 AI BLOG</p>
-      <h1>用简单的方式，理解并用好人工智能</h1>
-      <p class="hero-text">分享 AI 工具、学习路线和真实工作流，让你从“知道 AI”升级到“会用 AI”。</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#posts">开始阅读</a>
-        <a class="btn btn-secondary" href="#topics">查看专题</a>
+      <div class="hero-copy">
+        <p class="eyebrow">SINCE 2026 · STRATEGY / DESIGN / BUSINESS</p>
+        <h1>至少老板不会喷的<br><span>高级博客首页</span></h1>
+        <p class="lead">极简但不单薄，专业又有审美。这个版本强调信息层级、可读性与品牌质感，适合对外展示与长期更新内容。</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#featured">查看精选</a>
+          <a class="btn btn-outline" href="#about">了解定位</a>
+        </div>
       </div>
+      <aside class="hero-panel">
+        <p class="panel-title">本周主打</p>
+        <h2>把个人博客做成“可信品牌资产”</h2>
+        <ul>
+          <li>信息分区明确：Hero / 精选 / 专栏 / 关于</li>
+          <li>首屏表达一句话价值主张</li>
+          <li>卡片布局统一，移动端自动折叠</li>
+        </ul>
+      </aside>
     </section>
 
-    <section id="posts" class="container section">
-      <h2>最新文章</h2>
+    <section id="featured" class="container section">
+      <div class="section-top">
+        <h2>Featured</h2>
+        <a href="#" class="text-link">查看全部文章 →</a>
+      </div>
       <div class="post-grid">
-        <article class="card">
-          <p class="meta">2026-05-22 · 工具评测</p>
-          <h3>主流 AI 写作工具怎么选？一文看懂成本与效果</h3>
-          <p>从速度、质量、价格和中文支持四个维度，给出清晰对比与建议。</p>
+        <article class="post post-large">
+          <p class="tag">封面文章</p>
+          <h3>如何写一篇让高管愿意转发的行业长文</h3>
+          <p>从标题结构、观点密度、图文节奏到结论行动点，一套能复用的写作框架。</p>
         </article>
-        <article class="card">
-          <p class="meta">2026-05-18 · 提示词工程</p>
-          <h3>万能 Prompt 模板：目标、约束、示例、输出格式</h3>
-          <p>把问题提得更清楚，模型回答才会更稳定、更接近你的预期。</p>
+        <article class="post">
+          <p class="tag">策略</p>
+          <h3>内容品牌的三层护城河</h3>
+          <p>定位、表达与持续产出机制，缺一不可。</p>
         </article>
-        <article class="card">
-          <p class="meta">2026-05-14 · AI 自动化</p>
-          <h3>从0到1做个人 AI 助手：任务拆解与自动执行</h3>
-          <p>适合新手的轻量流程，不依赖复杂部署，也能快速落地。</p>
+        <article class="post">
+          <p class="tag">设计</p>
+          <h3>企业感页面的视觉克制法则</h3>
+          <p>不靠炫技，而靠秩序、留白与统一细节。</p>
         </article>
       </div>
     </section>
 
-    <section id="topics" class="container section">
-      <h2>博客专题</h2>
-      <div class="topic-grid">
-        <div class="panel"><h3>AI 入门学习</h3><p>基础概念、模型能力边界、学习路径规划。</p></div>
-        <div class="panel"><h3>生产力工具流</h3><p>写作、分析、会议、运营等场景的提效方案。</p></div>
-        <div class="panel"><h3>AI + 编程实践</h3><p>代码生成、调试辅助、自动化脚本实战。</p></div>
+    <section id="columns" class="container section columns">
+      <h2>专栏方向</h2>
+      <div class="column-grid">
+        <article>
+          <h3>商业洞察</h3>
+          <p>围绕增长、组织效率与品牌影响力，输出可落地的认知框架。</p>
+        </article>
+        <article>
+          <h3>产品与体验</h3>
+          <p>从用户路径到交互细节，记录产品迭代中真正有效的方法。</p>
+        </article>
+        <article>
+          <h3>创作系统</h3>
+          <p>聚焦选题池、写作流程与复盘机制，打造可持续内容引擎。</p>
+        </article>
       </div>
     </section>
 
     <section id="about" class="container section about">
-      <h2>关于 AI星图</h2>
-      <p>这是一个纯静态博客模板，适合部署到 GitHub Pages、Netlify 或 Vercel。你可以继续扩展：文章详情页、标签筛选、深色/浅色切换。</p>
+      <h2>关于作者</h2>
+      <p>这是一个偏“老板审美”的博客模板：稳重、清晰、专业。可直接部署到 GitHub Pages 并持续更新文章，作为个人官网或团队内容门户。</p>
     </section>
   </main>
 
-  <footer>
-    <div class="container">© 2026 AI星图 · Build with curiosity.</div>
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 ORION JOURNAL</p>
+      <p>Built for professional storytelling.</p>
+    </div>
   </footer>
 </body>
 </html>
